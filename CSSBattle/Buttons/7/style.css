@@ -17,10 +17,11 @@ body:after {
   z-index: 1;
 }
 .button-group {
-  position: relative;
+  position: absolute;
+  bottom: 0;
   z-index: 2;
   display: flex;
-  min-width: 600px;
+  min-width: 800px;
   height: 100px;
   background-color: #000;
   border-radius: 7px;
@@ -70,8 +71,8 @@ body:after {
   box-shadow: -75px 0 0px 0px rgba(179,225,255,0.3), 74px 0 0px 0px rgba(179,225,255,0.35);
 }
 .button-group > div svg {
-  height: 2em;
-  width: 2em;
+  height: 1em;
+  width: 1em;
   position: relative;
   display: block;
   fill: #181818;
